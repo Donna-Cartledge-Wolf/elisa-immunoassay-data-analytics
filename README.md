@@ -2,6 +2,8 @@
 
 A portfolio-ready dataset for demonstrating scientific data analytics, immunoassay QC, Python automation, visualization, and decision-support skills.
 
+**📊 [View the complete ELISA QC analysis notebook](notebooks/elisa_qc_analysis.ipynb)**
+
 ## Dataset
 - **25 synthetic 96-well ELISA plates**
 - 8-point standard curve in duplicate
