@@ -15,13 +15,31 @@ A portfolio-ready dataset for demonstrating scientific data analytics, immunoass
 ## Safe-to-publish statement
 **All data are fully synthetic and were generated solely for portfolio demonstration. They contain no patient, client, employer, proprietary, confidential, or unpublished experimental data.**
 
-## Suggested portfolio questions
-1. Fit an independent 4-parameter logistic (4PL) standard curve to each plate.
-2. Calculate concentrations and dilution-corrected results for unknowns.
-3. Apply duplicate CV and QC recovery rules.
-4. Identify high background, replicate imprecision, edge effects, and read-order drift.
-5. Compare analyst, instrument, batch, and well-position variability.
-6. Generate an automated plate-level QC report.
+## Analysis performed
+
+The accompanying Python/Jupyter workflow:
+
+- Fits an independent 4-parameter logistic (4PL) standard curve to each ELISA plate
+- Back-calculates concentrations directly from OD450 measurements
+- Applies dilution correction to unknown samples
+- Calculates duplicate precision (CV%) and QC recovery
+- Evaluates blank background and standard-curve goodness of fit
+- Applies automated plate-level QC criteria
+- Investigates positional/edge effects and read-order drift
+- Classifies plates as Pass, Review, or Fail
+- Validates anomaly detection against the synthetic design only after the independent analysis is complete
+
+## Key results
+
+- **25 complete 96-well ELISA plates analyzed**
+- **2,400 well-level observations**
+- **19 plates classified Pass**
+- **1 plate classified Review**
+- **5 plates classified Fail**
+- **All 6 deliberately planted anomaly plates were identified for Fail or Review**
+- Routine synthetic plates remained classified as Pass
+
+The workflow detected examples of high background, replicate imprecision, poor QC recovery, standard-curve abnormalities, positional/edge bias, and read-order drift.
 
 ## Illustrative QC criteria
 These are simplified for portfolio use and **not a validated regulatory SOP**:
