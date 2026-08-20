@@ -1,0 +1,26 @@
+Plate_ID,Run_Date,Analyst,Instrument_ID,Mean_Blank_OD,Standard_Curve_R2,QC_Low_Recovery_Pct,QC_Mid_Recovery_Pct,QC_High_Recovery_Pct,Max_QC_CV_Pct,Max_Standard_CV_Pct,Unknown_Samples_Review_Count,OD_Residual_vs_Read_Order_Slope,Plate_Status,Primary_Reason
+PLT-001,2026-01-05,Analyst_A,ELISA_Reader_01,0.0432,0.99991,100.89,99.39,101.7,1.98,5.5,2,-1.72e-05,Pass,All primary QC criteria met
+PLT-002,2026-01-08,Analyst_B,ELISA_Reader_02,0.0512,0.99985,98.94,99.26,98.9,6.29,10.02,3,2.04e-05,Pass,All primary QC criteria met
+PLT-003,2026-01-11,Analyst_C,ELISA_Reader_02,0.0423,0.99959,99.55,99.09,103.61,10.62,11.62,3,-4.73e-05,Pass,All primary QC criteria met
+PLT-004,2026-01-14,Analyst_A,ELISA_Reader_01,0.049,0.99971,96.69,100.03,95.55,5.51,17.1,0,-6.87e-05,Pass,All primary QC criteria met
+PLT-005,2026-01-17,Analyst_B,ELISA_Reader_01,0.052,0.99969,101.17,98.0,100.34,4.92,11.47,1,3.36e-05,Pass,All primary QC criteria met
+PLT-006,2026-01-20,Analyst_C,ELISA_Reader_02,0.0543,0.99965,96.97,99.91,94.87,7.51,17.44,2,4.1e-05,Pass,All primary QC criteria met
+PLT-007,2026-01-23,Analyst_A,ELISA_Reader_02,0.1761,0.97359,145.47,118.44,150.9,7.33,11.2,2,4.74e-05,Fail,High blank; Curve fit; QC recovery
+PLT-008,2026-01-26,Analyst_B,ELISA_Reader_01,0.0497,0.99979,99.4,100.83,100.25,5.04,5.33,4,6.62e-05,Pass,All primary QC criteria met
+PLT-009,2026-01-29,Analyst_C,ELISA_Reader_01,0.0479,0.99966,99.98,100.3,96.78,3.3,4.97,7,2.02e-05,Pass,All primary QC criteria met
+PLT-010,2026-02-01,Analyst_A,ELISA_Reader_02,0.0458,0.99978,98.52,99.81,97.38,5.09,13.01,1,1.72e-05,Pass,All primary QC criteria met
+PLT-011,2026-02-04,Analyst_B,ELISA_Reader_02,0.0435,0.99941,99.19,98.72,104.47,4.49,19.6,3,5.36e-05,Pass,All primary QC criteria met
+PLT-012,2026-02-07,Analyst_C,ELISA_Reader_01,0.049,0.99958,101.33,157.14,107.44,53.17,7.31,4,-0.0002181,Fail,QC CV; QC recovery
+PLT-013,2026-02-10,Analyst_A,ELISA_Reader_01,0.0497,0.99953,101.8,102.28,95.9,2.42,15.53,4,2.11e-05,Pass,All primary QC criteria met
+PLT-014,2026-02-13,Analyst_B,ELISA_Reader_02,0.0476,0.99955,98.75,101.7,101.58,4.99,9.43,2,-5.21e-05,Pass,All primary QC criteria met
+PLT-015,2026-02-16,Analyst_C,ELISA_Reader_02,0.0457,0.99926,101.5,99.43,102.29,5.26,14.32,3,-3.21e-05,Pass,All primary QC criteria met
+PLT-016,2026-02-19,Analyst_A,ELISA_Reader_01,0.0647,0.90775,97.87,99.08,106.46,4.08,141.42,7,-0.0019455,Fail,Curve fit
+PLT-017,2026-02-22,Analyst_B,ELISA_Reader_01,0.0474,0.99946,99.02,99.76,101.72,3.85,13.32,7,2.49e-05,Pass,All primary QC criteria met
+PLT-018,2026-02-25,Analyst_C,ELISA_Reader_02,0.0383,0.99979,100.27,99.76,97.87,2.33,3.69,3,2e-07,Pass,All primary QC criteria met
+PLT-019,2026-02-28,Analyst_A,ELISA_Reader_02,0.0525,0.99975,102.44,100.01,106.89,8.04,7.49,1,-2.98e-05,Pass,All primary QC criteria met
+PLT-020,2026-03-03,Analyst_B,ELISA_Reader_01,0.0474,0.99974,99.81,98.62,102.28,3.89,4.58,4,1.65e-05,Pass,All primary QC criteria met
+PLT-021,2026-03-06,Analyst_C,ELISA_Reader_01,0.0541,0.99966,97.45,100.2,68.2,1.67,5.39,1,1.3e-05,Fail,QC recovery
+PLT-022,2026-03-09,Analyst_A,ELISA_Reader_02,0.0478,0.9998,101.27,99.43,100.07,6.79,8.9,2,-1.15e-05,Pass,All primary QC criteria met
+PLT-023,2026-03-12,Analyst_B,ELISA_Reader_02,0.0481,0.99718,106.23,101.21,111.06,3.12,15.32,0,0.0007515,Review,Potential read-order drift
+PLT-024,2026-03-15,Analyst_C,ELISA_Reader_01,0.0508,0.99988,101.04,101.47,102.62,9.06,2.94,2,-2.42e-05,Pass,All primary QC criteria met
+PLT-025,2026-03-18,Analyst_A,ELISA_Reader_01,0.0472,0.97809,97.69,100.95,97.66,2.51,47.42,3,2.32e-05,Fail,Curve fit

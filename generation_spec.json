@@ -1,0 +1,54 @@
+{
+  "seed": 20260819,
+  "plates": 25,
+  "wells_per_plate": 96,
+  "standards_pg_mL": [
+    2000.0,
+    1000.0,
+    500.0,
+    250.0,
+    125.0,
+    62.5,
+    31.25,
+    15.625
+  ],
+  "qcs_pg_mL": {
+    "QC_Low": 50.0,
+    "QC_Mid": 300.0,
+    "QC_High": 1200.0
+  },
+  "illustrative_LLOQ_pg_mL": 20.0,
+  "illustrative_ULOQ_pg_mL": 1800.0,
+  "injected_issues": {
+    "PLT-007": [
+      "High background",
+      "Plate-wide baseline increased",
+      "High blank/background QC failure"
+    ],
+    "PLT-012": [
+      "Replicate imprecision",
+      "QC_Mid replicate 2 biased high",
+      "High QC duplicate CV"
+    ],
+    "PLT-016": [
+      "Edge effect",
+      "Outer wells signal increased",
+      "Position-related bias and elevated replicate CVs"
+    ],
+    "PLT-021": [
+      "Poor high-QC recovery",
+      "QC_High effective concentration reduced",
+      "QC recovery failure"
+    ],
+    "PLT-023": [
+      "Instrument drift",
+      "Signal increases with read order",
+      "Detectable read-order trend; review"
+    ],
+    "PLT-025": [
+      "Standard outlier",
+      "250 pg/mL standard replicate 2 suppressed",
+      "Poorer curve fit / standard agreement"
+    ]
+  }
+}

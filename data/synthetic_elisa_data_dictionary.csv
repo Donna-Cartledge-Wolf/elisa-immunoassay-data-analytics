@@ -1,0 +1,23 @@
+Field,Type,Description
+Plate_ID,Text,Synthetic assay plate identifier.
+Batch_ID,Text,Synthetic batch grouping; five plates per batch.
+Run_Date,Date,Synthetic assay run date.
+Analyst,Text,Fictional analyst identifier; no real person.
+Instrument_ID,Text,Fictional microplate reader identifier.
+Read_Order,Integer,Sequential plate read position from 1 to 96.
+Well,Text,96-well plate position.
+Row,Text,Plate row A-H.
+Column,Integer,Plate column 1-12.
+Sample_ID,Text,"Synthetic standard, QC, blank, or unknown sample identifier."
+Sample_Type,Category,"Standard, QC, Blank, or Unknown."
+Replicate,Integer,Duplicate replicate number (1 or 2).
+Dilution_Factor,Integer,"Applied sample dilution factor. Unknown samples may use 1, 2, 5, or 10."
+Expected_Concentration_pg_mL,Numeric,Nominal concentration for standards/QCs; blank for unknown samples.
+Synthetic_True_Final_Concentration_pg_mL,Numeric,Ground-truth value used to generate synthetic unknowns; normally unavailable in a real experiment.
+OD450,Numeric,Synthetic absorbance at 450 nm after analytical noise and any deliberate anomaly.
+Calculated_Assay_Concentration_pg_mL,Numeric,Concentration estimated by inverse 4PL before dilution correction.
+Calculated_Final_Concentration_pg_mL,Numeric,Estimated final concentration after dilution correction.
+Result_Qualifier,Category,"For unknowns: <LLOQ, Quantifiable, or >ULOQ; N/A for controls/standards."
+Replicate_CV_Pct,Numeric,Coefficient of variation across a duplicate pair.
+Recovery_Pct,Numeric,Mean calculated concentration divided by expected concentration ×100; standards/QCs only.
+Sample_QC_Flag,Category,"Pass, Review, or Fail using illustrative portfolio criteria."

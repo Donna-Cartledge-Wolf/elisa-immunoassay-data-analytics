@@ -1,0 +1,7 @@
+Plate_ID,Injected_Issue,Synthetic_Mechanism,Expected_Analytical_Signal
+PLT-007,High background,Plate-wide baseline increased,High blank/background QC failure
+PLT-012,Replicate imprecision,QC_Mid replicate 2 biased high,High QC duplicate CV
+PLT-016,Edge effect,Outer wells signal increased,Position-related bias and elevated replicate CVs
+PLT-021,Poor high-QC recovery,QC_High effective concentration reduced,QC recovery failure
+PLT-023,Instrument drift,Signal increases with read order,Detectable read-order trend; review
+PLT-025,Standard outlier,250 pg/mL standard replicate 2 suppressed,Poorer curve fit / standard agreement
