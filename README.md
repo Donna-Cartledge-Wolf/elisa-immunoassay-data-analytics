@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Wolf_Analytics_Logo.png" width="340">
+</p>
+
 # Synthetic ELISA Immunoassay Analytics Portfolio Project
 
 This project analyzes a fully synthetic 25-plate ELISA dataset using Python for scientific data analysis, immunoassay QC, visualization, and laboratory decision support.
