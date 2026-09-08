@@ -6,7 +6,7 @@
 
 This project analyzes a fully synthetic 25-plate ELISA dataset using Python for scientific data analysis, immunoassay QC, visualization, and laboratory decision support.
 
-**📊 [View the complete ELISA QC analysis notebook](notebooks/elisa_qc_analysis.ipynb)**
+**[View the complete ELISA QC analysis notebook](notebooks/elisa_qc_analysis.ipynb)**
 
 ## Dataset
 
