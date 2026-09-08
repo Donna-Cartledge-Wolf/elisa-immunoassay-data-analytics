@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Wolf_Analytics_Logo.png" width="340">
+  <img src="Wolf_Analytics_Logo.png" width="350">
 </p>
 
 # Synthetic ELISA Immunoassay Analytics Portfolio Project
